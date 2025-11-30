@@ -1,0 +1,213 @@
+body {
+    font-family: arial;
+    margin: 0;
+} 
+
+body p {
+    line-height: 30px;
+    
+
+}
+.navbar {
+    display: flex;
+justify-content: space-between ;
+align-items: center;
+    padding: 0 20px;
+
+    ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    }
+    
+    ul li a {
+     text-decoration: none;
+     font-weight: bolder;
+     font-size: large;
+     color:rgb(251, 251, 251);
+     font-family: Arial, Helvetica, sans-serif
+
+     }
+
+     ul li img {
+        background-color: rgb(204, 201, 40);
+        padding: 10px;
+        border-radius: 20px;
+}
+     }
+
+
+
+
+
+ a:hover,a:active {
+        background-color: aliceblue;
+        color:  rgb(75, 2, 75);
+ }
+
+.background {
+    background-image: url(https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg);
+    min-height: 100vh;
+    margin: 0;
+}
+.hero {
+    text-align: center;
+    display: block;
+    margin-top: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    h1,h2 {
+        color: white;
+    }
+
+}
+.hero-buttons a {
+    border: solid 2px color(from color srgb r g b);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: small;
+   align-content: center;
+   margin-top: 10px;
+   
+
+}
+
+.a{color: white;
+    background-color: rgb(75, 2, 75);
+}
+.b {color: white;
+    background-color: rgb(204, 201, 40);
+}
+.c {
+    color: rgb(75, 2, 75);
+    background-color: rgb(255, 255, 255);
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+     background-color: rgb(247, 246, 246);
+    padding: 50px;
+    gap: 50px;
+}
+.section div {
+    font-size: large;
+    font-family: Arial, Helvetica;
+    line-height: 20px;
+
+    p {
+        color: rgb(21, 0, 28);
+    }
+  
+}
+h2 {
+   color: rgb(118, 1, 118);
+   font-size: 30px;
+   line-height: 36px;
+
+}
+
+h3 {
+    color: rgb(0, 219, 219);
+
+}
+
+h4 {
+    color: rgb(112, 1, 112);
+    font-size: 140%;
+}
+
+
+.gallery {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+.gally {
+    display: block;
+    flex-direction: row;
+    max-width: 400px;
+     line-height: 20px;
+     color: blueviolet;
+
+     a {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(196, 193, 36);
+        font-weight: bold;
+        border-radius: 10px;
+        color:  white;
+      
+      
+     }
+
+     p {
+    color: rgb(14, 0, 28);
+}
+     
+}
+
+.gall {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: auto;
+}
+footer {
+    background-image: linear-gradient(to right,  rgb(12, 2, 75),#37013e,#37013e, #770171);
+h2 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 10px;
+    
+   }
+
+     div ul {
+    list-style: none;
+    
+}
+
+div p {
+    font-family: arial;
+    line-height: 35px;
+    color: white;
+}
+ div ul li a {
+    text-decoration: none;
+    color: white;
+   
+ }
+
+
+
+hr {
+    max-width: 65%;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+
+}
+.about {
+    display: block;
+    align-items: center;
+}
